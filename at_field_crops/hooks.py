@@ -6,10 +6,10 @@ app_name = "at_field_crops"
 app_title = "Crops"
 app_publisher = "AgriTheory"
 app_description = "App for managing standing crops"
-app_icon = "octicon octicon-file-directory"
+app_icon = "assets/at_field_crops/images/aticonwhite.svg"
 app_color = "'black'"
 app_email = "tyler@agritheory.com"
-app_license = "MIT"
+app_license = "GNU AGPLv3"
 
 # Includes in <head>
 # ------------------
@@ -118,4 +118,3 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "at_field_crops.event.get_events"
 # }
-

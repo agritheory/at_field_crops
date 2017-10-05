@@ -14,6 +14,6 @@ class Planting(Document):
 
     def validate(self):
         # brings in variety's days to maturity to hidden field
-        self.planting_days_to_maturity = frappe.db.get_value("Variety", self.variety, "days_to_maturity")
+        self.planting_days_to_maturity = frappe.db.get_value("Crop Variety", self.variety, "days_to_maturity")
 
         # order seed?
