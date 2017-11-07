@@ -30,9 +30,9 @@ app_license = "GNU AGPLv3"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 
-fixtures = [{"dt":"UOM", "filters": {"uom_name": "Acre"}}]
-
-
+fixtures = [{"dt":"UOM", "filters": {"uom_name": "Acre"}},
+    {"dt":"UOM", "filters": {"uom_name": "Hectare"}},
+    {"dt":"UOM", "filters": {"uom_name": "Ounce"}}]
 
 # Home Pages
 # ----------
