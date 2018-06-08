@@ -1,3 +1,6 @@
+## Deprecated
+Similar features are now available in the core of ERPNext. Please use that module instead. This is now left here for posterity.
+
 ## Field Crops
 
 This module for ERPNext is designed to work for a small farmer raising crops. A livestock module is available separately.
